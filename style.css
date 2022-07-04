@@ -58,9 +58,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 /* Sizes */
 
-.bloc-lg{
-	padding:100px 20px;
-}
 .bloc-sm{
 	padding:20px;
 }
@@ -243,7 +240,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"Inter-Regular";
 }
 .container{
-	max-width:1140px;
+	max-width:1440px;
 }
 .h1-style-semibold{
 	color:#000000!important;
@@ -251,8 +248,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	text-transform:none;
 }
 .bloc-hero{
-	padding-right:20%;
-	padding-left:20%;
+	padding-right:15%;
+	padding-left:15%;
 }
 .h1-style{
 	font-family:"Inter-SemiBold";
@@ -260,12 +257,29 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .link-style{
 	font-family:"Inter-Regular";
 	text-decoration:none;
+	color:#0068DA!important;
+	text-transform:none;
 }
 .img-style{
 	width:150px;
 }
 .img-textlo-style{
 	width:245px;
+}
+.h6-style{
+	color:#333333!important;
+}
+.bloc-header{
+	padding-left:15%;
+	padding-right:15%;
+}
+.bloc-privacy{
+	padding-left:15%;
+	padding-right:15%;
+}
+.link-footer{
+	text-decoration:none;
+	color:#333333!important;
 }
 
 /* = Colour
@@ -276,6 +290,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 .tc-black{
 	color:#000000!important;
+}
+
+/* Link colour styles */
+
+.ltc-olive-drab-7{
+	color:#333333!important;
+}
+.ltc-olive-drab-7:hover{
+	color:#292929!important;
 }
 
 
@@ -363,6 +386,24 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
     }
 }
 @media (max-width: 767px){
+	.bloc-header{
+		padding-right:16px;
+		padding-left:16px;
+	}
+	.h2-style{
+		text-align:left;
+	}
+	.p-style{
+		text-align:left;
+	}
+	.link-style{
+		text-decoration:none;
+		color:#0068DA!important;
+	}
+	.bloc-privacy{
+		padding-right:16px;
+		padding-left:16px;
+	}
 	
 	/* Small Row Margin Offsets */
 	.voffset-sm{
